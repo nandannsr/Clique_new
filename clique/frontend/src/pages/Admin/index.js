@@ -1,0 +1,7 @@
+export {default as AdminHomePage} from './AdminHomePage'
+export {default as AdminNotify} from './AdminNotify'
+export {default as AdminUserView} from './AdminUserView'
+export {default as AdminVideoView} from './AdminVideoView'
+export {default as AdminGenre} from './AdminGenre'
+export {default as ViewVideo} from './viewVideo'
+export {default as DeletedVideo} from './DeletedVideo'

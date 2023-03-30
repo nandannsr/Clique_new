@@ -1,0 +1,51 @@
+.outer-container {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    border-radius: 50px;
+    padding: 60px;
+    color: white;
+    display: flex;
+}
+.inner-continer {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+    padding: 40px 20px 20px 60px;
+    width: 80vw;
+    border-radius: 50px;
+    align-items: center;
+    background-image: url(D:\Main Project\spiderman-falling-down-areiwo2noxvm78x8.jpg);
+}
+.custom-btn {
+    color: white;
+    --tw-bg-opacity: 1;
+    background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+    border: none;
+    border-radius: 35px;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+}
+.pink-text {
+    --tw-bg-opacity: 1;
+    color: rgb(190 24 93 / var(--tw-bg-opacity));
+}
+.nav-custom {
+    display: flex;
+    color: white;
+    margin: 10px 150px 10px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.btn-nav {
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 800px) {
+    .custom-nav {
+        display: block;
+    }
+}
