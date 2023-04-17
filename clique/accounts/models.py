@@ -1,9 +1,9 @@
-
 from django.conf import settings
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 # Create your models here.
 
+""" Custom User Manager """
 class MyAccountManager(BaseUserManager):
     def create_user(self,first_name,last_name,username,email,phone_number=None,password=None):
         if not email:
@@ -42,7 +42,7 @@ class MyAccountManager(BaseUserManager):
         return user
         
         
-
+""" Custom User Model"""
 class Account(AbstractBaseUser):
     
      first_name = models.CharField(max_length=50)
@@ -77,6 +77,7 @@ class Account(AbstractBaseUser):
          
      def has_module_perms(self, add_label):
          return True
+
      
 class UserProfile(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)

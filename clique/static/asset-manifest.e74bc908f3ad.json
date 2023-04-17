@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.155ee914.css",
+    "main.js": "/static/js/main.860aefe7.js",
+    "static/media/spiderman-falling-down-areiwo2noxvm78x8.jpg": "/static/media/spiderman-falling-down-areiwo2noxvm78x8.0fef9b64119667f2aa00.jpg",
+    "index.html": "/index.html",
+    "main.155ee914.css.map": "/static/css/main.155ee914.css.map",
+    "main.860aefe7.js.map": "/static/js/main.860aefe7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.155ee914.css",
+    "static/js/main.860aefe7.js"
+  ]
+}
